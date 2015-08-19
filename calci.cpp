@@ -4,10 +4,12 @@ int a,b,c;
 public:
 void add()
 {
-cout<<"Enter 2 nos";
-cin>>a>>b;
+cout<<"Enter first no";
+cin>>a;
+cout<<"Enter second no";
+cin>>b;
 c=a+b;
-cout<<c;
+cout<<"Addition="<<c;
  
 }
 
